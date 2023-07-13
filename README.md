@@ -7,11 +7,18 @@ the grant.
 
 ## Installation
 
-Install the required dependencies
+1. Create a virtual environment:
 
-```shell
-pip install -r requirements.txt
-```
+   ```shell
+   $ python3 -m venv venv
+   $ . venv/bin/activate
+   ```
+
+2. Install the required packages:
+
+   ```shell
+   $ pip install -r requirements.txt
+   ```
 
 ## Configuration
 
