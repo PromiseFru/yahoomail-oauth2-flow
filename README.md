@@ -53,14 +53,20 @@ $ python3 yahoo_oauth.py get-userinfo
 
 - `revoke-grant`: Revoke the grant.
 
+**Note**: By the time of this writing, this feature does not seem to have been
+implemented by the Yahoo team yet. However, software development is an ongoing
+process, and the status of features can change over time. If you have any new
+information or if the status of this feature has changed, please feel free to
+make a contribution to the project.
+
 ```shell
 $ python3 yahoo_oauth.py revoke-grant
 ```
 
 ---
 
-> **Note**: Follow the command-line prompts or check the output for the
-> respective command.
+**Note**: Follow the command-line prompts or check the output for the respective
+command.
 
 ## License
 

@@ -143,8 +143,11 @@ def revoke_grant():
     :return: True if the grant was successfully revoked, False otherwise.
 
     Note:
-        This function does not seem to have been implemented by the Yahoo team yet. 
-        Please keep an eye open for any updates regarding this functionality.
+        By the time of this writing, this feature does not seem to have been
+        implemented by the Yahoo team yet. However, software development is an ongoing
+        process, and the status of features can change over time. If you have any new
+        information or if the status of this feature has changed, please feel free to
+        make a contribution to the project.
     """
     token = __read_file__(file_name=TOKEN_FILE)
     response = oauth.request(
