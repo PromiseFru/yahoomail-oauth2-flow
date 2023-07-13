@@ -20,6 +20,7 @@ pip install -r requirements.txt
 - `REDIRECT_URI`: Your redirect URI.
 - `API_BASE_URL`: Base URL for Yahoo Mail API.
 - `TOKEN_FILE`: Path to the token JSON file.
+- `INFO_FILE`: Path to the profile information JSON file.
 
 ## Usage
 
